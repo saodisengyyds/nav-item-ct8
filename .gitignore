@@ -1,0 +1,4 @@
+node_modules/
+public/
+.env
+database/nav.db
