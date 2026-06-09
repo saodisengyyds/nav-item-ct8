@@ -12,7 +12,11 @@
 
 ### 如果你是首次部署
 
-可以直接使用修改后的一键安装脚本（需要你自行修改安装脚本的下载地址指向本仓库发行的 release 包）。
+可以直接使用修改后的一键安装脚本：
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/saodisengyyds/nav-item-ct8/main/install.sh)
+```
 或者手动部署：
 1. 在面板添加网站（Node.js 环境，指定好 node 路径）。
 2. 下载本仓库的代码。
